@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar .logo{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.navbar a .logo-span{
+    color: rgb(2, 157, 218);
+}
+
+.navbar-light .navbar-nav .nav-link span{
+    font-weight: bold;
+    padding: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link span:hover {
+    background-image: linear-gradient(45deg, rgb(2, 157, 218), rgb(0, 230, 247));
+    border-radius: 5px;
+    color: #fff;
+}
+
+.tg-icon{
+    font-size: 30px;
+    background: -webkit-linear-gradient(rgb(2, 157, 218), rgb(0, 230, 247));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* Top Banner Styles */
+
+h1{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+p{
+    font-size: 17px;
+    line-height: 28px;
+    color: #797979;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.top-banner .btn{
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-weight: 700;
+    color: #fff;
+    background-image: linear-gradient(45deg, rgb(2, 157, 218), rgb(0, 230, 247));
+    padding: 15px 60px;
+}
+
+/* About Us Styles */
+
+.about-us h1{
+    margin-top: 7rem;
+}
+.about-us h1 span{
+    border-radius: 5px;
+    border-bottom: 3px solid #000;
+    padding: 0 20px;
+}
+
+ .about-us .btn{
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-weight: 700;
+    color: #fff;
+    background-image: linear-gradient(45deg, rgb(2, 157, 218), rgb(0, 230, 247));
+    padding: 15px 60px;
+}
+
+/* Services Styles */
+
+.services{
+    background-image: url(/images/bg/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.services h1{
+    margin-top: 7rem;
+}
+.services h1 span{
+    border-radius: 5px;
+    border-bottom: 3px solid #000;
+    padding: 0 20px;
+}
+
+.services img{
+    width: 20%;
+}
+
+.services h3{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.services p{
+    font-size: 16px;
+    text-indent: 50px;
+    text-align: justify;
+    /* letter-spacing: 3px; */
+    font-weight: normal;
+    color: #444;
+    line-height: 26px;
+}
+
+.services .card{
+    /* background: #fff none repeat scroll 0 0; */
+    background-color:#ededed;
+    margin: 20px auto;
+    padding: 40px 10px;
+    box-shadow: 0 16px 40px #ededed;
+    border-radius: 4px;
+    transition: .3s;
+}
+.services .card:hover{
+    transform: translateY(-10px);
+}
+
+/* Pricing Table Styles */
+
+.pricing h1{
+    margin-top: 7rem;
+}
+.pricing h1 span{
+    border-radius: 5px;
+    border-bottom: 3px solid #000;
+    padding: 0 20px;
+}
+
+.pricing .card li {
+    list-style-type: none;
+  }
+
+  .pricing .card{
+    border-radius: 10px;
+    margin: 20px auto;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    height: 550px;
+  }
+  
+  .pricing .card:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+  
+  .pricing .card-header {
+    background-image: linear-gradient(45deg, rgb(2, 157, 218), rgb(0, 230, 247));
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  .pricing ul li {
+    border-bottom: 1px solid #eee;
+    padding: 20px 5px;
+  }
+
+  .pricing .card-footer{
+      background-color: #ededed;
+  }
+  .pricing .card-footer i{
+    font-size: 20px;
+  }
+
+  .pricing .btn{
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-weight: 700;
+    color: #fff;
+    background-image: linear-gradient(45deg, rgb(2, 157, 218), rgb(0, 230, 247));
+    padding: 10px 50px;
+  }
+  
+
+/* Clients */
+
+.clients h1{
+    margin-top: 7rem;
+}
+.clients h1 span{
+    border-radius: 5px;
+    border-bottom: 3px solid #000;
+    padding: 0 20px;
+}
+
+.brands {
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 90px
+}
+
+.brands_slider_container {
+    height: 130px;
+    /* border: solid 1px #e8e8e8; */
+    /* box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1); */
+    padding-left: 97px;
+    padding-right: 97px;
+    background: #fff
+}
+
+.brands_slider {
+    height: 100%;
+    margin-top: 50px
+}
+
+.brands_item {
+    height: 100%
+}
+
+.brands_item img {
+    max-width: 100%
+}
+
+.brands_nav {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 5px;
+    cursor: pointer
+}
+
+.brands_nav i {
+    color: #e5e5e5;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease
+}
+
+.brands_nav:hover i {
+    color: #676767
+}
+
+/* Back to top button */
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }
+
+/* Footer Styles */
+
+.footer{
+    /* background-color: #4e4c4c; */
+    background-image: url(/images/bg/backg.jpg);
+    background-repeat: no-repeat;
+}
+.footer h2{
+    /* color: #fff; */
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer span{
+    color: rgb(2, 157, 218);
+}
+
+.footer p{
+    color: #000;
+    line-height: 15px;
+}
+
+.footer .social-links a{
+    font-size: 25px;
+    margin-left: 15px;
+    /* color: #fff; */
+    background: -webkit-linear-gradient(rgb(2, 157, 218), rgb(0, 230, 247));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
